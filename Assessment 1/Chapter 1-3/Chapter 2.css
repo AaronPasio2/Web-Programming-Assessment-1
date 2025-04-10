@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif; /* Set the font style */
+    background: #f4f4f9; /* background color */
+    color: #333; /* text color */
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #0056b3; /*  color for headings */
+}
+
+h1 {
+    text-align: center; /* Center the main heading */
+    margin-top: 50px;
+    font-size: 36px;
+}
+
+p {
+    text-align: center; /* Center the paragraph */
+    font-size: 18px;
+}
+
+nav {
+    background: #0056b3; /* background for navigation */
+    text-align: center;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none; /* Remove bullet points  */
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline; /* Displais list items */
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white; /* color for links */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #ffcc00; /* Change link color on hover */
+}
+
+div {
+    margin: 20px;
+    padding: 20px;
+    background: white; /* White backgrounds */
+    border-radius: 8px; /* Round the corners of the box */
+}
+
+h2 {
+    font-size: 28px;
+}
+
+ul {
+    list-style: none; /* Remove bullets from the list */
+    padding-left: 0;
+}
+
+ul li {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+ul li strong {
+    color: #0056b3; /* Blue color for strong text */
+}
+
+footer {
+    text-align: center;
+    background: #0056b3; /* Blue footer */
+    color: white;
+    padding: 5px 0;
+    position: fixed; /* Keep footer at the bottom */
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+footer a {
+    color: #ffcc00; /* Yellow color for footer link */
+    text-decoration: none; /* Remove underline from link */
+}
+
+footer a:hover {
+    color: white; 
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> <!-- Page Information -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petrol Calculator</title>
+    <link rel="stylesheet" href="Chapter 6.css">  <!-- Link to the stylesheet -->
+</head>
+<body>
+  <h1>Petrol Calculator</h1>
+  
+  <label for="costPerLiter">Cost per liter:</label> <!-- Label for Cost per liter -->
+  <input type="number" id="costPerLiter" value="1.72">`
+  
+  <label for="litersPurchased">Liters purchased:</label>
+  <input type="number" id="litersPurchased" value="0">
+
+  <button onclick="calculateTotal()">Calculate</button>
+  
+  <p id="totalCost">Total Cost: $0</p> <!-- Displays the total cost -->
+
+  <script>
+    // Formula to calculate the total cost
+    function calculateTotal() {
+      const costPerLiter = parseFloat(document.getElementById('costPerLiter').value);
+	  
+      const litersPurchased = parseFloat(document.getElementById('litersPurchased').value);
+	  
+      const totalCost = (costPerLiter * litersPurchased).toFixed(2);
+	  
+      document.getElementById('totalCost').textContent = `Total Cost: $${totalCost}`;
+    }
+  </script>
+</body>
+</html>

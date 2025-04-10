@@ -1,0 +1,63 @@
+/*Body Style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+/* Header Style */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #555;
+}
+
+/* Label Style */
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    text-align: center; 
+}
+
+
+input[type="number"] {
+    width: 200px; 
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center; 
+}
+
+/* Button Style */
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center; 
+}
+
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Paragraph Style */
+p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center; 
+}

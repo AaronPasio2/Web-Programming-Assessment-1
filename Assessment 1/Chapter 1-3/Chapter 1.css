@@ -1,0 +1,18 @@
+body {
+    background-color: #FFE5CC; /*Background color */
+    text-align: center; /* Centers all text inside the body */
+}
+
+h1 {
+    color: #d35400; /* color style for main heading */
+}
+
+h2 {
+    color: #00334F; /*color style for subheading */
+}
+
+ul, ol {
+    display: inline-block;
+    text-align: left; /* Aligns list items to the left */
+    margin: 0 auto; /* Centers the list */
+}
